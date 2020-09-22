@@ -10,7 +10,7 @@ object FakeDatabase {
             val itemNote = ItemNote(Heading = "Heading $i", Context = "Context $i")
             listOfNotes.add(itemNote)
         }
-
         return listOfNotes
     }
+
 }
